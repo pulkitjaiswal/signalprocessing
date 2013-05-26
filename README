@@ -1,5 +1,12 @@
-signal processing javascript library (peak analysis from DNA sample)
-================
+                                  
+                                  DSP.js
+
+DSP.js is a comprehensive digital signal processing library for javascript. 
+It includes many functions for signal analysis and generation, including 
+Oscillators(sine, saw, square, triangle), Window functions (Hann, Hamming, etc), 
+Envelopes(ADSR), IIR Filters(lowpass, highpass, bandpass, notch), FFT and DFT 
+transforms, Delays, Reverb.
+
 Modules:
 
   DFT(bufferSize, sampleRate): Discrete Fourier Transform
@@ -65,3 +72,10 @@ Modules:
 
     var reverb = Reverb(20000, 6500, 0.8, 0.5, 0.9, 4500);
     reverb.process(signal); 
+
+
+@corban                                                    weare.buildingsky.net
+________________________________________________________________________________
+
+       Copyright (c) 2010 Corban Brook, released under the MIT license
+                                                                                  
